@@ -1,0 +1,86 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  flex: 1;
+  padding: 2rem 1rem;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  border-top: 1px solid var(--border);
+  background: var(--card-bg);
+}
+/* Multiple Runbooks Display */
+.multiple-runbooks-alert {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.multiple-runbooks-alert h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.multiple-runbooks-alert p {
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
+}
+
+.matched-runbooks-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.runbook-badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  backdrop-filter: blur(10px);
+}
+
+.runbook-badge strong {
+  font-size: 1rem;
+}
+
+.runbook-badge .score {
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-container {
+    padding: 1rem 0.5rem;
+  }
+
+  .results-container {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,13 @@
+flask==3.0.0
+flask-cors==4.0.0
+python-dotenv==1.0.0
+jira==3.10.5
+huggingface-hub==1.4.1
+nltk>=3.8.1
+sentence-transformers==5.2.3
+langchain==1.2.10
+langchain-community==0.4.1
+langchain-huggingface==1.2.1
+faiss-cpu==1.13.2
+torch==2.10.0
+transformers=5.2.0

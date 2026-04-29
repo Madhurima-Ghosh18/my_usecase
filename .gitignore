@@ -1,0 +1,4 @@
+__pycache__/
+react-frontend/node_modules/
+.env
+runbooks.db
